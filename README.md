@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/ahdcreative/vpilotshub-branding/main/SVG/logo.svg" width="300px" height="auto">
+<img src="https://raw.githubusercontent.com/ahdcreative/vpilotshub-branding/main/SVG/logo.svg" width="500px" height="auto">
+
 # vPilotsHub API Client
 
 Official Javascript client for the vPHub API.
