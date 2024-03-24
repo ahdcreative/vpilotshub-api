@@ -1,0 +1,49 @@
+{
+  "name": "@ahdcreative/vpilotshub-api",
+  "version": "1.0.0",
+  "description": "Client library for the vPilots Hubs API",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "npx text",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdcreative/vpilotshub-api.git"
+  },
+  "author": "AHDCreative",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahdcreative/vpilotshub-api/issues"
+  },
+  "homepage": "https://github.com/ahdcreative/vpilotshub-api#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/es6-promise": "^3.3.0",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "rollup": "^4.13.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
