@@ -1,4 +1,6 @@
+<div style="display:flex;">
 <img src="https://raw.githubusercontent.com/ahdcreative/vpilotshub-branding/main/SVG/logo.svg" width="500px" height="auto">
+</div>
 
 # vPilotsHub API Client
 
@@ -7,6 +9,7 @@ This library supports Javascript and Typescript.
 
 ## Install
 Install via npm:
+
     $ npm i @ahdcreative/vpilotshub-api
 
 ## Use
