@@ -1,6 +1,6 @@
 {
   "name": "@ahdcreative/vpilotshub-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client library for the vPilots Hubs API",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
